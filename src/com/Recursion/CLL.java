@@ -2,6 +2,11 @@ package com.Recursion;
 import java.util.*;
 public class CLL {
 
+
+    /*
+    circular linkedlist ,
+    In this nodes are connected in a circular form.
+     */
     private Node head;
     private Node tail;
 
