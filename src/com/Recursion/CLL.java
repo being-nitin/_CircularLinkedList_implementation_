@@ -5,7 +5,7 @@ public class CLL {
 
     /*
     circular linkedlist ,
-    In this nodes are connected in a circular form.
+    In this, nodes are connected in a circular form.
      */
     private Node head;
     private Node tail;
@@ -25,12 +25,6 @@ public class CLL {
         tail.next = node;
         tail = node;
     }
-
-
-
-
-
-
     private class Node{
         int val;
         Node next;
