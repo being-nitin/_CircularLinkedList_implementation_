@@ -33,6 +33,7 @@ public class CLL {
             while (node!=head);
         }
     }
+    // inserting at a particular index.
     public void insert(int value){
         Node node = new Node(value);
         if(head==null){
