@@ -4,9 +4,12 @@ public class CLL {
 
 
     /*
+
     circular linkedlist ,
     In this, nodes are connected in a circular form.
+
      */
+
     private Node head;
     private Node tail;
 
@@ -14,6 +17,12 @@ public class CLL {
         this.head = null;
         this.tail = null;
     }
+    /*
+    Displaying the content of a linkedlist.
+    We have used a do while loop because there is a condition of printing the condition atleast
+    once.
+    */
+
     public void display(){
         Node node = head;
         if(head!=null){
