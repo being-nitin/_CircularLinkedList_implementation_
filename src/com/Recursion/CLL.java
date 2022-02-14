@@ -14,6 +14,16 @@ public class CLL {
         this.head = null;
         this.tail = null;
     }
+    public void display(){
+        Node node = head;
+        if(head!=null){
+            do{
+                System.out.print(node.val+" ->");
+                node = node.next;
+            }
+            while (node!=head);
+        }
+    }
     public void insert(int value){
         Node node = new Node(value);
         if(head==null){
