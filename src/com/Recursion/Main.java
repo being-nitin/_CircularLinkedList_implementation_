@@ -9,6 +9,7 @@ public class Main {
         list.insert(7);
         list.insert(8);
         list.insert(9);
+        list.delete(8);
         list.display();
     }
 }

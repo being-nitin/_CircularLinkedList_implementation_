@@ -19,7 +19,7 @@ public class CLL {
     }
     /*
     Displaying the content of a linkedlist.
-    We have used a do while loop because there is a condition of printing the condition atleast
+    We have used a do while loop because  there is a condition of printing the condition atleast
     once.
     */
 
@@ -45,6 +45,26 @@ public class CLL {
         tail.next = node;
         tail = node;
     }
+     public void delete(int val) {
+         Node node = head;
+         if (node == null) {
+             return;
+         }
+         if (node.val == val) {
+             head.next = head;
+             tail.next = head;
+             return;
+         }
+         do {
+             Node n = node.next;
+             if (n.val == val) {
+                 node.next = n.next;
+                 break;
+             }
+             node = node.next;
+         }
+         while (node != head) ;
+     }
     private class Node{
         int val;
         Node next;
