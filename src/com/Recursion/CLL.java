@@ -46,7 +46,9 @@ public class CLL {
         tail = node;
     }
     // deleting an element from a linkedlist.
+
      public void delete(int val) {
+        // if the corresponding node becomes equal to the element which you want to delete.
          Node node = head;
          if (node == null) {
              return;
