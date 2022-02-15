@@ -45,6 +45,7 @@ public class CLL {
         tail.next = node;
         tail = node;
     }
+    // deleting an element from a linkedlist.
      public void delete(int val) {
          Node node = head;
          if (node == null) {
