@@ -58,6 +58,7 @@ public class CLL {
              tail.next = head;
              return;
          }
+         // if the next element of the corresponding node is equal the value which you want to delete.
          do {
              Node n = node.next;
              if (n.val == val) {
